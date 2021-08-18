@@ -82,39 +82,12 @@ const ScreenA = props =>
                         </div>
                         <div className="col-3 columnTable">
                             <div className="contentTable">
-                                <a className="buttonIcon" onClick={() => alert("coming soon...")}>
+                                <button className="buttonIcon" onClick={() => alert("coming soon...")}>
                                     <i className="fas fa-pencil-alt"></i>
-                                </a>
-                                <a className="buttonIcon" onClick={() => alert("coming soon...")}>
+                                </button>
+                                <button className="buttonIcon" onClick={() => alert("coming soon...")}>
                                     <i className="fas fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row no-gutters lineTableContent lineTable">
-                        <div className="col-3 columnTable">
-                            <div className="contentTable">
-                                <span>Registro</span>
-                            </div>
-                        </div>
-                        <div className="col-3 columnTable">
-                            <div className="contentTable">
-                                <span>Registro</span>                                
-                            </div>
-                        </div>
-                        <div className="col-3 columnTable">
-                            <div className="contentTable">
-                                <span>Registro</span>                               
-                            </div>
-                        </div>
-                        <div className="col-3 columnTable">
-                            <div className="contentTable">
-                                <a className="buttonIcon" onClick={() => alert("coming soon...")}>
-                                    <i className="fas fa-pencil-alt"></i>
-                                </a>
-                                <a className="buttonIcon" onClick={() => alert("coming soon...")}>
-                                    <i className="fas fa-eye"></i>
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
