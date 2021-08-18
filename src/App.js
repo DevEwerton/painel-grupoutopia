@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Painel Grupo Utopia V01
+          Painel Grupo Utopia V02
         </p>
         <a
           className="App-link"
