@@ -208,6 +208,9 @@
     margin: 10px;
     font-size: 18px;
     color: #353535;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 .screens .buttonIcon:hover {
