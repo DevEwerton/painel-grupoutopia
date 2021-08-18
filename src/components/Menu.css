@@ -1,0 +1,86 @@
+.menu {
+    background-color: var(--second-color);
+    color: #fff;
+    height: 100%;
+    width: 250px;
+    margin-left: 0px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-right: 2px solid var(--primary-color);
+    position: relative;
+}
+
+.menu .buttonToggle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: -70px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    z-index: 900;
+    text-align: center;
+}
+
+.menu .btnToggleClose, .menu .btnToggleOpen {
+    font-size: 44px;
+    color:  var(--primary-color);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 20px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 22px;
+    color: #f3f3f3;
+    text-align: left;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.menu ul li a .iconMenu {
+    color: #f3f3f3;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li a span {
+    padding-left: 10px;
+    color: #f3f3f3;
+    text-align: left;
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    color: var(--primary-color);
+    transition: color 1s;
+    border-left: 4px solid transparent;
+}
+
+.menu ul li a:hover .iconMenu, .menu ul li a.active .iconMenu,
+.menu ul li a:hover span, .menu ul li a.active span
+{
+    transition: color 1s;
+    color: var(--primary-color);  
+    font-weight: 600;
+}

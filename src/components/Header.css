@@ -1,0 +1,13 @@
+.header{
+    height: 80px;
+    background-color: var(--second-color);
+    border-bottom: 2px solid var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 10px; */
+}
+
+.header .brand {
+    max-width: 92px;
+}
